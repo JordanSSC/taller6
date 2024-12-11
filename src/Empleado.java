@@ -11,7 +11,14 @@ public class Empleado {
         this.horasTrabajadas = horasTrabajadas;
         this.departamento = departamento;
     }
-
+    
+    public void imprimirDetalles() {
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Genero: " + getNombre());
+        System.out.println("Salario: " + getSalarioBase());
+        System.out.println("Horas trabajadas: " + getHorasTrabajadas());
+        System.out.println("Departamento: " + getDepartamento());
+    }
     public double calcularSalario() {
         double salarioTotal = salarioBase;
         if (salarioBase>0) {
