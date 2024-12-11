@@ -3,7 +3,6 @@ public class Empleado {
     private double salarioBase;
     private int horasTrabajadas;
     private String departamento;
-    private double tarifaHora;
 
     public Empleado(){}
     public Empleado(String nombre, double salarioBase, int horasTrabajadas, double tarifaHora, String departamento) {
